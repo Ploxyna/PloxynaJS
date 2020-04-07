@@ -1,2 +1,2 @@
 # project-ploxyna
-A javascript game library specifically for js13kgames
+A micro javascript game framework specifically for js13kgames
