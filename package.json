@@ -1,0 +1,32 @@
+{
+    "name": "ploxyna",
+    "version": "0.0.1",
+    "description": "A micro javascript game framework",
+    "main": "Ploxyna.js",
+    "scripts": {
+        "test": "echo \"No tests\"",
+        "build": "parcel build Ploxyna.js && parcel build ./nodes/*.js && cd dist && sx rm *.js.map"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hemanth-hk/project-ploxyna.git"
+    },
+    "keywords": [
+        "ploxyna",
+        "ploxynajs",
+        "js13kgames",
+        "game",
+        "framework",
+        "micro",
+        "html5games"
+    ],
+    "author": "Hemanth Kumar",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hemanth-hk/project-ploxyna/issues"
+    },
+    "homepage": "https://github.com/hemanth-hk/project-ploxyna#readme",
+    "dependencies": {
+        "parcel-bundler": "^1.12.4"
+    }
+}
